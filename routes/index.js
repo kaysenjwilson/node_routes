@@ -7,4 +7,6 @@ routes.get("/ttech", myController.tooeleTech);
 
 routes.use("/students", require("./students"));
 
+routes.use("/api-docs", require("./swagger"));
+
 module.exports = routes;
