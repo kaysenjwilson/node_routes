@@ -9,7 +9,7 @@ router.get("/:id", StudentController.getSingleStudent);
 
 router.post("/", StudentController.createStudent);
 
-router.patch("/", StudentController.updateStudent);
+router.patch("/:id", StudentController.updateStudent);
 
 router.delete("/", StudentController.deleteStudent);
 
